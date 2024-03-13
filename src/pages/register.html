@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <section class="main__container">
+            <form class="form__container">
+                <div class="div__alignment">
+                    <h2 class="register__form">Cadastro</h2>
+                    <button class="back__button--up">Voltar para o login</button>
+                </div>
+            
+                <label for=""> Usuário </label>
+                <input class="input__left" type="text"
+                name="username" 
+                id="username"
+                placeholder="Digite seu usuário aqui"
+                >
+
+                <label for=""> Email </label>
+                <input class="input__left" type="email"
+                name="email" 
+                id="email"
+                placeholder="Digite seu usuário aqui"
+                >
+
+                <label for=""> Link da foto do perfil </label>
+                <input class="input__left"
+                type="url" 
+                name="avatar" 
+                id="avatar"
+                placeholder="Insira o link aqui"
+                >
+                
+                <label for=""> Senha </label>
+                <input class="input__left" 
+                type="password"
+                name="password" 
+                id="password"
+                placeholder="Digite sua senha aqui"
+                >
+
+                <button type="submit" class="register__button">Cadastrar</button>
+
+                <button class="back__button--down">Voltar para o login</button>
+            </form>
+
+            <div class="right__container">
+                <h1 class="title__right">Petinfo</h1>
+                <h2 class="span__right">Ooooooba!</h2>
+                <p class="description__right">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+                <img class="img__right" src="../images/img-register.svg" alt="img-register">
+            </div>
+        </section>
+    </main>
+    <script type="module" src="../scripts/register.js"></script>
+</body>
+</html>

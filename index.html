@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section class="main__container">
+            <div class="left__container">
+                <h1 class="title__left"> Petinfo </h1>
+                <h2 class="subtitle__left"> <span class="span__bold"> Amor </span> e <span class="span__bold"> carinho </span> por meio do conhecimento </h2>
+                <p class="description__left">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+                <img class="image__left" src="./src/images/img-login.svg" alt="img-login">
+            </div>
+
+            <div class="right__container">
+
+                <form class="form__container">
+
+                    <span class="title__login">Login</span>
+
+                    <label for=""> Email </label>
+                        <input class="input__right" type="email"
+                        name="email" 
+                        id="email"
+                        placeholder="Digite seu usuário aqui"
+                        >
+
+                    <label for=""> Senha </label>
+                        <input class="input__right" type="password"
+                        name="password" 
+                        id="password"
+                        placeholder="Digite seu email aqui"
+                        >
+                        
+                    <div class="alternative__container">
+                        <button class="acess__button"> Acessar </button>
+                        <span class="span__question"> Ainda não possui conta? </span>
+                        <span class="span__description"> Clicando no botão abaixo, você pode se cadastrar rapidamente </span>
+                        <button class="button__register"> Cadastrar </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>

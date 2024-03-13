@@ -1,0 +1,140 @@
+.main__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 90%;
+    height: 100vh;
+
+    margin: 0 auto;
+}
+
+/* ------------------------------- form Container ------------------------------- */
+
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid #D9D9D9;
+
+    padding: 44px 24px;
+
+    width: 369px;
+    height: 672px;
+}
+
+.div__alignment{
+    display: flex;
+    gap: 100px;
+}
+
+.register__form{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.back__button--up{
+    width: 140px;
+    height: 32px;
+
+    padding: 0px 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+
+    background-color: transparent;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.input__left{
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+
+    padding: 0px 16px;
+
+    width: 321px;
+    height: 44px;
+
+    font-size: 16px;
+    
+    
+}
+
+.input__left::placeholder{
+    color: #868E96;
+}
+
+.register__button{
+    width: 321px;
+    height: 38px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: #364FC7;
+    color: #FCFEFF;
+
+    margin-top: 40px;
+}
+
+.back__button--down{
+    width: 321px;
+    height: 38px;
+
+    padding: 0px 16px;
+
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+
+    font: 16px;
+    font-weight: 500;
+
+    background-color: transparent;
+
+    margin-top: 10px;
+}
+
+/* ------------------------------- Right Container ------------------------------- */
+
+.title__right{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.span__right{
+    font-size: 32px;
+    font-weight: 500;
+
+    color: #364FC7;
+}
+
+.description__right{
+    font: 16px;
+    font-weight: 400;
+
+    width: 300px;
+}
+
+.img__right{
+    width: 300px;
+    height: 203px;
+}
